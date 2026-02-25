@@ -1,0 +1,20 @@
+# Navigate to project
+cd C:\Users\YourName\Documents\commitriskviz
+
+# Activate environment
+venv\Scripts\activate
+
+# Pull latest (if collaborating)
+git pull
+
+# Make your changes
+# ... edit files ...
+
+# Save to GitHub
+git add .
+git commit -m "description of what you changed"
+git push
+
+Run app: streamlit run src/dashboard.py
+
+Activate venv: fuzz\Scripts\activate
