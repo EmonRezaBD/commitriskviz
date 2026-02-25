@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.vscode/
+
+# Local
+.DS_Store
+*.log
+results/*.csv
+!results/.gitkeep
+
+# Streamlit
+.streamlit/
