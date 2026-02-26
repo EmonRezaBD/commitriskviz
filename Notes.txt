@@ -1,0 +1,16 @@
+1. We will collect data from 10 famous open source C++ repo
+2. repos = [
+    "FFmpeg/FFmpeg",
+    "opencv/opencv", 
+    "nlohmann/json",
+    "google/leveldb",
+    "google/re2",
+    "facebook/folly",
+    "apache/arrow",
+    "libjpeg-turbo/libjpeg-turbo",
+    "cmu-sei/pharos",
+    "boostorg/algorithm"]
+3. From each 10 repo, 100 data; in total: 10*100 = 1000 data
+4. For testing purpose now collecting 10*5 = 50 data
+5. For debugging: Ctrl+Shift+D, use debug pointers
+6. 
