@@ -42,4 +42,16 @@ Refs
 [1]https://www.computer.org/csdl/proceedings-article/icsm/1998/87790024/12OmNwt5sfZ
 [2]https://dl.acm.org/doi/10.1145/1368088.1368114
 
+Normalization:
+1. We normalize so that negative values get pushed toward 0 (low risk) and positive values toward 1 (high risk)
+2. Used the equal weighting (0.33/0.33/0.34) [1][2]
+3. The threshold (0.3 / 0.6). This follows the tertile split approach used in defect prediction literature.
+0.3/0.6 roughly divides the [0,1] range into three equal bands. This is a reasonable default.
+However, in future we can configure the weights and thresholds
+
+Refs 
+[1]https://ieeexplore.ieee.org/document/4221632
+[2]https://dl.acm.org/doi/10.1145/1368088.1368114
+[3]https://www.sciencedirect.com/science/article/abs/pii/S0164121209001605
+
 Step-2:
